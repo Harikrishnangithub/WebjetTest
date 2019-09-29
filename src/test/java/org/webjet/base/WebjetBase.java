@@ -11,6 +11,8 @@ public class WebjetBase
 		// TODO Auto-generated method stub
 		System.setProperty(key, value);
 		driver= (WebDriver) new ChromeDriver();
+		System.setProperty(key, value);
+		driver= (WebDriver) new ChromeDriver();
 		
 	}
 	public static void loadUrl(String url) {
